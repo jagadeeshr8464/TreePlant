@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql:///TreePlant
+    password: 12345
+  application:
+    name: TissueCulture
+  jpa:
+    show-sql: 'true'
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate.ddl-auto: update
+server:
+  port: '4041'
